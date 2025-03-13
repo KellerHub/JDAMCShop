@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 
+    120px/*Navbar*/
+    900px/*Body*/
+    1800px/*Historia*/
+    1000px/*Contacto*/
+    110px;/*Footer*/
+}

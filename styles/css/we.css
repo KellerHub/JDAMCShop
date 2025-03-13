@@ -1,0 +1,42 @@
+.history {
+    background-image: url(../../assets/blurvt.jpg);
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 1920px 1080px;
+    background-color: rgb(0, 0, 0);
+    background-blend-mode: exclusion;
+    background-position: 50% 50%;
+}
+
+.historia {
+    text-align: justify;
+    color: white;
+    margin: 0px 10%;
+    padding: 1% 0;
+    background: radial-gradient(#000E 50%,#0003);
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.hist_txt{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.esc {
+    margin: 0 40%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 20%;
+    filter: drop-shadow(8px 8px 2.8px #000);
+}
+
+.firma {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: right;
+    margin: 50px 0 100px 0;
+    padding-right: 1%;
+}

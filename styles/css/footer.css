@@ -1,0 +1,16 @@
+.footer {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #4F1F1F;
+    font-size: 12px;
+    padding: 0 20px 20px 20px;
+    text-align: end;
+}
+
+.igpr {
+    color: #6F1F1F;
+}
+
+.footer{
+    background-color: #0f0f0f;
+}
