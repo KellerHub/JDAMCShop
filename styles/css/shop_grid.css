@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 
+    120px/*Navbar*/
+    auto/*Body*/
+    110px;/*Footer*/
+}
