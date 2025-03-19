@@ -4,11 +4,10 @@ body{
 
 .grid{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     grid-template-rows: 
-    120px/*Navbar*/
-    900px/*Body*/
-    1800px/*Historia*/
-    1000px/*Contacto*/
-    110px;/*Footer*/
+    21vh/*Navbar*/
+    84vh/*Body*/
+    260vh/*Historia*/
+    122vh/*Contacto*/;
 }

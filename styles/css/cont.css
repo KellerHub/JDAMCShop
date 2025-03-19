@@ -8,24 +8,37 @@
     background-position: bottom;
 }
 
-.inp {
-    padding: 15px;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.726);
-    width: 300px;
-    text-align: center;
-    color: rgb(48, 48, 48);
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
-}
-
 .formulario {
-    margin-top: 200px;
     padding: 40px;
     background-color: rgba(0, 0, 0, 0.829);
     text-align: center;
     font-family: Anta;
     color: rgb(187, 187, 187);
+}
+
+.form_subtitle {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.form_paragraph {
+    margin: 10px 0 5px 0;
+}
+
+.inp {
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    color: rgb(187, 187, 187);
+    background-color: rgba(0, 0, 0, 0.726);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.inp::placeholder {
+    color: rgb(60, 60, 60);
 }
 
 .submit {
@@ -50,14 +63,4 @@
     border-bottom: 2px #100 solid;
     border-right: 2px #100 solid;
     cursor: pointer;
-}
-
-.form_subtitle {
-    margin-top: -10px;
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-
-.form_paragraph {
-    margin: 10px 0 5px 0;
 }
