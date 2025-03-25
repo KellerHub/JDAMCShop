@@ -14,8 +14,8 @@
 .historia {
     text-align: justify;
     color: white;
-    margin: 0px 10%;
-    padding: 1% 0;
+    margin: 0px 7%;
+    padding: 0.5% 0;
     background: radial-gradient(#000E 50%,#0003);
     border: 1px solid transparent;
     border-radius: 20px;
@@ -29,9 +29,8 @@
 }
 
 .esc {
-    margin-top: 150px;
-    margin-bottom: 100px;
-    width: 400px;
+    margin: 8% 0 8% 0;
+    width: 40%;
     filter: drop-shadow(8px 8px 2.8px #000);
 }
 
@@ -39,6 +38,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     text-align: right;
-    margin: 50px 0 100px 0;
+    margin: 50px 0 35px 0;
     padding-right: 1%;
 }

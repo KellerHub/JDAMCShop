@@ -2,14 +2,21 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+    background-color: #0f0f0f;
+}
+
 .nav{
     background-color: blue;
 }
 
 .body{
-    background-image: url(/assets/group.jpg);
-    background-position: center -100px;
+    background-image: url(/assets/J.png);
+    background-position: 50% 120%;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-size: 515px 515px;
 }
 
 a{
@@ -20,7 +27,7 @@ a{
     background: #0008;
     color: #A00;
     font-family: Cloister;
-    font-size: 90px;
+    font-size: 10vw;
     text-align: center;
     font-weight: lighter;
     text-shadow:

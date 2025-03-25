@@ -1,13 +1,13 @@
 .footer {
     font-family: sans-serif;
     font-weight: lighter;
-    background-color: rgba(0, 0, 0, 0.91);
-    color: #5a1414;
+    background-color: #0f0f0f;
+    color: #c9c9c9;
     font-size: 13px;
     padding: 2px 20px 9px 20px;
     text-align: end;
 }
 
 .igpr {
-    color: #7a1111;
+    color: #f1f1f1;
 }

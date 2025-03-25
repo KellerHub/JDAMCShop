@@ -1,13 +1,10 @@
-body{
-    margin: 0;
-}
-
 .grid{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 
-    21vh/*Navbar*/
-    84vh/*Body*/
-    260vh/*Historia*/
-    122vh/*Contacto*/;
+    3%/*Navbar*/
+    90vh/*Body*/
+    72%/*Historia*/
+    25%/*Contacto*/
+    3%;/*Footer*/
 }

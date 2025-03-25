@@ -29,7 +29,7 @@
 .inp {
     padding: 15px;
     margin: 10px;
-    width: 300px;
+    width: 50%;
     text-align: center;
     color: rgb(187, 187, 187);
     background-color: rgba(0, 0, 0, 0.726);
@@ -43,7 +43,7 @@
 
 .submit {
     margin-top: 15px;
-    width: 200px;
+    width: 10%;
     padding: 10px;
     font-family: Anta;
     font-size: 20px;
