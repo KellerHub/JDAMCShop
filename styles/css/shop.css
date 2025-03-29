@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .grid{
     color: #0f0f0f;
 }
@@ -8,15 +12,17 @@
 
 .body{
     background-color: #5f5f5f;
+    margin-top: 100px;
     min-height: 800px;
     display: grid;
-    grid-template-columns: 230px auto;
+    grid-template-columns: 12% 88%;
     grid-template-rows: auto;
 }
 
 .categorias{
-    background-color: #e0e0e0;
+    background-color: #000;
     padding: 20px;
+    color: #fff;
 }
 
 .cat_title{
@@ -31,27 +37,29 @@
     margin-top: 20px;
 }
 
-.cat_item{
+.cat_list li{
     display: flex;
     margin: 5px;
 }
 
 .shop{
-    background-color: #FFF;
+    background-color: #B00000;
     padding: 35px;
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
     gap: 25px;
     flex-wrap: wrap;
 }
 
 .box{
     background-color: #e0e0e0;
-    height: 400px;
-    width: 300px;
+    height: 35%;
+    width: 25%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
     padding: 20px 10px;
     border-radius: 10px;
     justify-content: space-around;

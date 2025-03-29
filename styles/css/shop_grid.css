@@ -1,12 +1,13 @@
 body{
     margin: 0;
+    background-color: #0f0f0f;
 }
 
 .grid{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     grid-template-rows: 
-    120px/*Navbar*/
-    auto/*Body*/
-    110px;/*Footer*/
+    3%/*Navbar*/
+    97%/*Body*/
+    3%;/*Footer*/
 }
