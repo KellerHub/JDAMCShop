@@ -12,8 +12,23 @@
     <link rel="stylesheet" href="styles/fonts/fonts.css">
     <link rel="icon" href="/assets/esc.png">
     <title>Jinetes Del Asfalto ᴹᶜ | Inicio</title>
+    <!-- React y ReactDOM desde CDN -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <!-- Babel para poder usar JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
+    <!-- Elemento guía para React:
+    <div id="root">
+        <script type="text/babel">
+            function App() {
+                return <h1>Hola desde React 🎉</h1>;
+            }
+            const root = ReactDOM.createRoot(document.getElementById("root"));
+            root.render(<App />);
+        </script>
+    </div>-->
     <nav class="navbar">
         <a href="#inicio">
             <img class="nav_logo" src="assets/esc.png" alt="Logo JDAMC">
