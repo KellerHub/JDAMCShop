@@ -30,12 +30,12 @@ a{
     display: flex;
     justify-content: center;
     gap: 5%;
+    list-style: none;
     font-family: Cloister;
     font-size: 30px;
 }
 
 .nav_options li{
-    list-style: none;
     text-shadow:
     0px 0px 2px #FFF,
     0px 0px 2px #FFF,
@@ -51,10 +51,51 @@ a{
     0px 0px 5px #FF5;
 }
 
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    text-shadow:
+    0px 0px 2px #FFF,
+    0px 0px 2px #FFF,
+    0px 0px 2px #FFF;
+    transition: text-shadow 0.2s ease-in-out;
+}
+
+.hamburger:hover{
+    text-shadow:
+    0px 0px 2px #FFF,
+    0px 0px 2px #FFF,
+    0px 0px 2px #FFF,
+    0px 0px 5px #FF5;
+}
+
 @media (max-width: 768px) {
     .nav_options {
+        display: none;
         flex-direction: column;
         text-align: center;
+        background: #0f0f0f;
+        border: 2px solid #FFF;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 150px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .nav_options li {
+        border-bottom: 1px solid #FFF4;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .nav_options.active {
+        display: flex;
     }
     
+    .hamburger {
+        display: block;
+    }
 }
